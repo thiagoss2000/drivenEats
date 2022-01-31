@@ -194,6 +194,14 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+.valores { 
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 76px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .confirmar_pedido p1 {
     font-family: Roboto;
     font-style: normal;
@@ -205,7 +213,7 @@ button {
     margin-bottom: 28px;
     color: #FFFFFF;
 }
-.confirmar_pedido p2 {
+.valores p2 {
     width: 100%;
     font-family: Roboto;
     font-style: normal;
@@ -218,12 +226,12 @@ button {
     margin-left: 26px;
     position: relative;
 }
-.confirmar_pedido p2 span {
+.valores p2 span {
     position: absolute;
     right: 25px;
 }
 .confirmar_pedido p3 {
-    width: 100%;
+    width: calc(100% - 26px);
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -231,9 +239,9 @@ button {
     line-height: 26px;
     letter-spacing: 0.018em;
     color: #FFFFFF;
-    margin-bottom: 24px;
-    margin-left: 26px;
-    position: relative;
+    position: absolute;
+    top: 196px;
+    left: 26px;    
 }
 .confirmar_pedido p3 span {
     position: absolute;
@@ -254,8 +262,13 @@ button {
     text-align: center;
     letter-spacing: 0.018em;
     cursor: pointer;
+    position: absolute;
+    bottom: 54px;
+    left: calc(50% - 165.6px);
 }
 .confirmar_pedido button:last-child {
     background-color: #50D074;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 2px;
 }
